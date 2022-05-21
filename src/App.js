@@ -8,13 +8,9 @@ import Profile from './components/Profile';
 
 
 function App() {
-
-
   return (
     <Router>
 
-      
- 
       <Switch>    
           <Route path="/sign">
            <SignUp />

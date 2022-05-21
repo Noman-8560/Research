@@ -31,42 +31,42 @@ export default function Profile() {
               </div>
 
               <div className="mb-3">
-                <label className="mb-2 text-muted" for="password">institute</label>
-                <input id="password" type="password" className="form-control lgn1" name="password" required />
+                <label className="mb-2 text-muted" for="institute">institute</label>
+                <input  type="text" className="form-control lgn1" name="institute" required />
               </div>
 
               <div className="mb-3">
-                <label className="mb-2 text-muted" for="password">Affiliation</label>
-                <input id="password" type="password" className="form-control lgn1" name="password" required />
+                <label className="mb-2 text-muted" for="Affiliation">Affiliation</label>
+                <input  type="text" className="form-control lgn1" name="Affiliation" required />
               </div>
 
-
+              
               <div className="mb-3">
-                <label className="mb-2 text-muted" for="password">Area of Interest</label>
-                <input id="password" type="password" className="form-control lgn1" name="password" required />
-              </div>
-
-              <div className="mb-3">
-                <label className="mb-2 text-muted" for="password">State</label>
-                <input id="password" type="password" className="form-control lgn1" name="password" required />
+                <label className="mb-2 text-muted" for="Education">Education</label>
+                <input  type="text" className="form-control lgn1" name="Education" required />
               </div>
 
               <div className="mb-3">
-                <label className="mb-2 text-muted" for="password">Mobile No</label>
-                <input id="password" type="password" className="form-control lgn1" name="password" required />
+                <label className="mb-2 text-muted" for="Profession">Profession</label>
+                <input type="text" className="form-control lgn1" name="Profession" required />
               </div>
+
 
 
               <div className="mb-3">
-                <label className="mb-2 text-muted" for="password">Education</label>
-                <input id="password" type="password" className="form-control lgn1" name="password" required />
+                <label className="mb-2 text-muted" for="Area">Area of Interest</label>
+                <input  type="text" className="form-control lgn1" name="Area" required />
               </div>
 
               <div className="mb-3">
-                <label className="mb-2 text-muted" for="password">Profession</label>
-                <input id="password" type="password" className="form-control lgn1" name="password" required />
+                <label className="mb-2 text-muted" for="State">State</label>
+                <input  type="text" className="form-control lgn1" name="State" required />
               </div>
 
+              <div className="mb-3">
+                <label className="mb-2 text-muted" for="MobileNo">Mobile No</label>
+                <input  type="text" className="form-control lgn1" name="MobileNo" required />
+              </div>
 
               <div className="align-items-center d-flex">
                 <Link to="/home" class="btn1  mx-auto">Save Profile</Link>

@@ -12,7 +12,7 @@ export default function Profile() {
     </div>
   </div>
 
-  <form className=" container row g-3 needs-validation mx-auto shadow-lg my-5 lgn crd border-0 card-body " novalidate>
+  <form className=" container row g-3 needs-validation mx-auto shadow-lg my-5 lgn crd border-0" novalidate>
     <h1 className="fs-4 card-title fw-bold mt-4 txt text-center ">Create Scholar Profile</h1>
 
     <div className="col-lg-6 col-md-6 col-sm-10">

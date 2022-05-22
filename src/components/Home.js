@@ -8,7 +8,7 @@ export default function Home() {
 
     <div className="container d-flex align-items-center justify-content-between h-100">
        <div className="logo mt-4">
-        <h4><Link to="/">ResearchNet</Link></h4>
+        <h4><Link to="/home">ResearchNet</Link></h4>
        </div>
     </div>
 
@@ -17,7 +17,7 @@ export default function Home() {
         <div className="carousel-container">
           <h2 className="animate__animated animate__fadeInDown">Welcome to <span>ResearchNet</span></h2>
           <p className="animate__animated fanimate__adeInUp">Google Scholar Profiles provide a simple way for authors to showcase their academic publications. You can check who is citing your articles, graph citations over time, and compute several citation metrics.</p>
-          <Link to="/sign" className="btn-get-started animate__animated animate__fadeInUp scrollto">Scholar</Link>
+          <Link to="/profile" className="btn-get-started animate__animated animate__fadeInUp scrollto">Scholar</Link>
         </div>
       </div>
     </div>

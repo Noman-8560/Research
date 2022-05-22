@@ -1,4 +1,3 @@
-import SignUp from './components/SignUp';
 import { BrowserRouter as Router,Switch,Route} from "react-router-dom";
 import Login from './components/Login';
 import React from 'react';
@@ -9,13 +8,10 @@ import Profile from './components/Profile';
 
 function App() {
   return (
-    <Router>
 
+    <Router>
       <Switch>    
-          <Route path="/sign">
-           <SignUp />
-          </Route>
-   
+
           <Route path="/login">
             <Login />
           </Route>
@@ -25,7 +21,7 @@ function App() {
           </Route>
 
           <Route path="/profile">
-          <Profile />
+            <Profile />
           </Route>
 
       </Switch>

@@ -1,87 +1,81 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+
 export default function Profile() {
   return (
-    <section className="h-75 mt-4">
 
+    <section className='h-100 mt-4'>
   <div className="container d-flex align-items-center justify-content-between h-100">
     <div className="logo">
-      <h4><a href='/'>ResearchNet</a></h4>
+      <h4><a href='/home'>ResearchNet</a></h4>
     </div>
   </div>
 
-  <div className="container h-75 mt-4">
-    <div className="row justify-content-sm-center h-75">
-      <div className="col-xxl-4 col-xl-5 col-lg-5 col-md-7 col-sm-9">
-        <div className="card shadow-lg border-0">
-          <div className="card-body  p-5 w-100  lgn">
-            <h1 className="fs-4 card-title fw-bold mb-4 txt text-center ">Create Scholar Profile</h1>
+  <form className=" container row g-3 needs-validation mx-auto shadow-lg my-5 lgn crd border-0 card-body " novalidate>
+    <h1 className="fs-4 card-title fw-bold mt-4 txt text-center ">Create Scholar Profile</h1>
 
-            <form className="needs-validation" autocomplete="off">
-
-              <div className="mb-3">
-                <label for="validationDefault03" className="form-label text-muted">Full Name</label>
-                <input type="text" className="form-control lgn1" id="validationDefault03" required />
-              </div>
-
-              <div className="mb-3">
-                <label for="validationDefault03" className="form-label text-muted">Upload Profile Image</label>
-                <input type="file" className="form-control lgn1" id="validationDefault03" required />
-              </div>
-
-              <div className="mb-3">
-                <label className="mb-2 text-muted" for="institute">institute</label>
-                <input  type="text" className="form-control lgn1" name="institute" required />
-              </div>
-
-              <div className="mb-3">
-                <label className="mb-2 text-muted" for="Affiliation">Affiliation</label>
-                <input  type="text" className="form-control lgn1" name="Affiliation" required />
-              </div>
-
-              
-              <div className="mb-3">
-                <label className="mb-2 text-muted" for="Education">Education</label>
-                <input  type="text" className="form-control lgn1" name="Education" required />
-              </div>
-
-              <div className="mb-3">
-                <label className="mb-2 text-muted" for="Profession">Profession</label>
-                <input type="text" className="form-control lgn1" name="Profession" required />
-              </div>
-
-
-
-              <div className="mb-3">
-                <label className="mb-2 text-muted" for="Area">Area of Interest</label>
-                <input  type="text" className="form-control lgn1" name="Area" required />
-              </div>
-
-              <div className="mb-3">
-                <label className="mb-2 text-muted" for="State">State</label>
-                <input  type="text" className="form-control lgn1" name="State" required />
-              </div>
-
-              <div className="mb-3">
-                <label className="mb-2 text-muted" for="MobileNo">Mobile No</label>
-                <input  type="text" className="form-control lgn1" name="MobileNo" required />
-              </div>
-
-              <div className="align-items-center d-flex">
-                <Link to="/home" class="btn1  mx-auto">Save Profile</Link>
-              </div>
-
-            </form>
-
-          </div>
-
-        </div>
-
-      </div>
+    <div className="col-lg-6 col-md-6 col-sm-10">
+      <label for="Name" className="form-label text-white">Full Name</label>
+      <input type="text" className="form-control lgn" id="Name" required />
     </div>
-  </div>
+
+    <div className="col-lg-6 col-md-6 col-sm-10">
+      <label for="Email" className="form-label text-white">Email</label>
+      <input type="email" className="form-control lgn" id="Email" required />
+    </div>
+
+    <div className="col-lg-6 col-md-6 col-sm-10">
+      <label for="profile" className="form-label text-white">Upload Profile Photo</label>
+      <input type="file" className="form-control lgn" id="profile" required />
+    </div>
+
+    <div className="col-lg-6 col-md-6 col-sm-10">
+      <label for="institute" className="form-label text-white">Institute</label>
+      <input type="text" className="form-control lgn" id="institute" required />
+    </div>
+
+    <div className="col-lg-6 col-md-6 col-sm-10">
+      <label for="Affiliation" className="form-label text-white">Affiliation</label>
+      <input type="text" className="form-control lgn" id="Affiliation" required />
+    </div>
+
+    <div className="col-lg-6 col-md-6 col-sm-10">
+      <label for="Education" className="form-label text-white">Education</label>
+      <input type="text" className="form-control lgn" id="Education" required />
+    </div>
+
+
+    <div className="col-lg-6 col-md-6 col-sm-10">
+      <label for="Profession" className="form-label text-white">Profession</label>
+      <input type="text" className="form-control lgn" id="Profession" required />
+    </div>
+
+
+    <div className="col-lg-6 col-md-6 col-sm-10">
+      <label for="area" className="form-label text-white">Area of Interest</label>
+      <input type="text" className="form-control lgn" id="area" required />
+    </div>
+
+
+    <div className="col-lg-6 col-md-6 col-sm-10">
+      <label for="State" className="form-label text-white">State</label>
+      <input type="text" className="form-control lgn" id="State" required />
+    </div>
+
+
+    <div className="col-lg-6 col-md-6 col-sm-10">
+      <label for="MobileNo" className="form-label text-white">Mobile No</label>
+      <input type="text" className="form-control lgn" id="MobileNo" required />
+    </div>
+
+    <div className="align-items-center d-flex my-4">
+      <Link to="/login" className="btn1  mx-auto">Save Profile</Link>
+    </div>
+
+  </form>
 
 </section>
+
   )
 }

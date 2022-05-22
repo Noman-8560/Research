@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom'
 
 export default function Login(props) {
   return (
-    <section className="h-75 mt-4">
 
+    <section className="h-75 mt-4">
     <div className="container d-flex align-items-center justify-content-between h-100">
       <div className="logo">
         <h4>
-          <Link to="/">ResearchNet</Link>
+          <Link to="/home">ResearchNet</Link>
         </h4>
       </div>
     </div>
@@ -33,13 +33,13 @@ export default function Login(props) {
                 </div>
   
                 <div className="align-items-center d-flex">
-                  <Link to="/profile" class="btn1  mx-auto">Login</Link>
+                  <Link to="/home" class="btn1  mx-auto">Login</Link>
                 </div>
                 <div className="card-footer mt-3 border-0 text-muted">
   
                   <div className="text-center">
-                    Don't have an account?
-                    <Link to="/sign" className='text-white'>Sign Up</Link>
+                    Don't have a Scholar Profile?
+                    <Link to="/profile" className='text-white ms-2'>Create Profile</Link>
                   </div>
                 </div>
               </form>

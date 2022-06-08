@@ -12,7 +12,6 @@ export default function Login(props) {
         </h4>
       </div>
     </div>
-  
     <div className="container h-75 mt-5">
       <div className="row justify-content-sm-center h-75">
         <div className="col-xxl-4 col-xl-5 col-lg-5 col-md-7 col-sm-9">
